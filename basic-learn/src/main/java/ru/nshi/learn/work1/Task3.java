@@ -1,6 +1,6 @@
 package ru.nshi.learn.work1;
-
 import java.util.Scanner;
+//Написать программу, которая определяет, является ли число простым. Число пользователь вводит с клавиатуры.
 
 public class Task3 {
 

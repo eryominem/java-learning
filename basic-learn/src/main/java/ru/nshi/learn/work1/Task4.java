@@ -1,5 +1,5 @@
 package ru.nshi.learn.work1;
-
+//Написать программу, которая определяет сумму всех простых чисел в диапазоне от 1000 до 2000.
 public class Task4 {
 
     public static void main(String[] args) {
