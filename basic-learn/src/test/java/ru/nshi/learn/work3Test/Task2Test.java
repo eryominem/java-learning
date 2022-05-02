@@ -5,7 +5,7 @@ import org.junit.jupiter.params.provider.*;
 import ru.nshi.learn.work3.Task2;
 
 import static org.junit.jupiter.api.Assertions.*;
-
+//work 3, task2 test
 public class Task2Test {
     Task2 task2;
 

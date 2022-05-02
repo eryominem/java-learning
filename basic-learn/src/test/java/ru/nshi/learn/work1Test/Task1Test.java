@@ -1,5 +1,5 @@
 package ru.nshi.learn.work1Test;
-
+//work 1, task1 test
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
