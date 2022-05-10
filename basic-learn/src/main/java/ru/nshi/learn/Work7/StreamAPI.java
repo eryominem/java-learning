@@ -8,12 +8,13 @@ import java.util.stream.Stream;
 public class StreamAPI {
     static String url = "https://raw.githubusercontent.com/rassafel/java-learn/master/tasks/data/CAR_DATA.csv";
     static Map<String, Integer> HEADERS = new HashMap<>();
+    static String DELIMITER = ",";
     static String pathToFile = "C:\\Temp\\";
 
     public static void main(String[] args) throws IOException {
         HEADERS = getHeaders();
 
-        //ПУНКТЫ 3-5
+        //ПУНКТЫ 3-5.
         BufferedReader reader = getReader();
         Car[] cars = convertToOOP(reader); //пункты 3-5
         carsToFile(cars, pathToFile + "Cars.txt");

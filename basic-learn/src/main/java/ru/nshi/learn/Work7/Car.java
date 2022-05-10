@@ -1,6 +1,5 @@
 package ru.nshi.learn.Work7;
 import java.util.*;
-
 public class Car {
     private String carModel;
     private CarMaker carMaker;

@@ -3,7 +3,6 @@ import java.util.*;
 public class CarMaker {
     private String carMakerName;
     private ArrayList<Car> cars = new ArrayList<Car>();
-
     public CarMaker(String carMakerName) {
         this.carMakerName = carMakerName;
     }
